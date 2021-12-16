@@ -1,0 +1,216 @@
+
+.home{
+    color: white;
+    max-width: 1366px;
+    margin: auto;
+ 
+   
+}
+
+.home_welcome{
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* animation-name: animate6;
+      animation-duration: 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-delay: 2s; */
+    animation: animate6 3s forwards 1s ease-in-out; 
+    opacity: 0;
+    background-color: rgba(0,0,0,0.1);
+    
+   
+
+ 
+   
+}
+@keyframes animate6{
+      
+    from{
+    transform: translateY(100px);
+    }
+    
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+        
+      }
+    }
+.home_welcome a{
+text-decoration: none;
+}
+
+    
+.button_home{
+    border: 2px solid blueviolet;
+    margin-top: 80px;
+    width:200px ;
+    padding: 15px;
+    border-radius: 5px;
+    
+    
+}
+.button_home:hover{
+  cursor: pointer;
+  border: 2px solid royalblue;
+}
+
+
+
+.remember80s img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.remember80s{
+      width: 50%;
+      margin-top: 200px;
+     
+    
+  
+}
+
+.back_to_80s{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 150px;
+padding: 20px;
+background: url(img/portadax.jpg)no-repeat center center/cover;
+
+
+
+
+}
+.back_to_80s_content_1{
+    width: 50%;
+    
+    }
+    .back_to_80s_content_2{
+        width: 50%;
+        
+        }
+.back_to_80s img{
+width: 100%;
+
+object-fit: cover;
+}
+.back_to_80s img{
+    width: 100%;
+    
+    object-fit: cover;
+    }
+
+    .demo_title{
+       
+        text-align: center;
+        font-size: 20px;
+       margin-top:300px;
+       margin-bottom: 150px;
+        border-radius: 5px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       background-color: rgba(0,0,0,0.9);
+/*         background: url(img/portadax.jpg)no-repeat center center/cover; */
+    
+    }
+
+    .demo_title_content1{
+      width: 50%;  
+      font-size: 30px;
+    
+    }
+    .demo_title_content2{
+width: 50%;
+border: 1px solid blueviolet;
+
+
+
+    }
+
+    @media(max-width:768px){
+
+        .demo_title{
+            flex-direction: column;
+            margin-top: 100px;
+            font-size: 17px;
+        }
+        .demo_title_content1{
+            width: 100%; 
+            margin-bottom: 100px;
+           font-size: 20px;
+          
+          }
+          .demo_title_content2{
+      width: 100%;
+      
+      
+          }
+          .home_welcome{
+            text-align: center;
+            padding: 20px;
+            margin-top: -50px;
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+         
+        
+           
+        }
+    }
+
+    .mostrar-arriba{
+        animation: mostrar-arriba 1s;
+        opacity: 1;
+      }
+      
+      @keyframes mostrar-arriba{
+         0%{
+           transform: translateY(100px);
+         }
+         100%{
+           transform: translateY(0);
+         }
+      }
+      
+      
+      .mostrar-izquierda{
+        animation: mostrar-izquierda 1s;
+      
+      }
+      
+      @keyframes mostrar-izquierda{
+         0%{
+           transform: translateX(100px);
+         }
+         100%{
+           transform: translateX(0);
+         }
+      }
+      .animation{
+        opacity: 0;
+        transition: all 1s;
+      }
+      .animation2{
+        opacity: 0;
+        transition: all 1s;
+      }
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.player-wrapper-music{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+}
+
+@media(max-width:768px){
+    .player-wrapper-music{
+
+       width: 300px;
+       margin: auto;
+        
+        
+        
+        
+        } 
+}

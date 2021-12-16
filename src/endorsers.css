@@ -1,0 +1,46 @@
+.endorsers img{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    
+    
+
+}
+
+.endorsers{
+
+ margin: 20px;
+ margin-top: 200px;
+ opacity: 0;
+ 
+ 
+}
+.endorsers_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.endorsers_title{
+    margin-bottom: 100px;
+    font-size: 30px;
+    color: blueviolet;
+
+}
+
+
+@media(max-width:768px){
+  .endorsers{
+    margin-top: 120px;
+    }
+    .endorsers img{
+        width: 60px;
+        height: 50px;
+     
+        
+        
+    
+    }
+}

@@ -1,0 +1,29 @@
+.concerts{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .concerts{
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+

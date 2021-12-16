@@ -1,0 +1,185 @@
+.about{
+   
+    border:1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    min-height: 600px;
+    border: none;
+    margin-top: 130px;
+    background-color: rgba(0,0,0,0.5);
+    background: url(../src/img/synth6.jpg)no-repeat center center/cover; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-position-y: -100px;
+    padding: 20px;
+   
+    
+   
+   
+    
+
+}
+
+#about1{
+  margin-top: 200px;
+}
+
+
+.integrantes_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.strong{
+  font-size: 255px;
+}
+
+.line{
+    border-bottom: 1px dotted blueviolet;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.line_transparent{
+  
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+
+
+.about_text{
+     background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 2em;
+    font-size: 20px;
+    width: 50%;
+ }
+
+.about_box{
+   padding: 20px;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+.videoTag2{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+    z-index: -1;
+
+}
+
+
+
+.integrantes{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    color: blueviolet;
+   
+    
+}
+
+.integrantes img{
+    width: 200px;
+    height: 200PX;
+    object-fit: cover;
+    margin: 50px;
+    border-radius: 50%;
+    border: 3px solid grey;
+  
+   
+}
+.integrantes_img p{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+@media(max-width:768px){
+    .about{
+        flex-direction: column;
+        margin-bottom: 550px;
+    }
+    .integrantes_img{
+flex-direction: column;
+    
+        
+    }
+    .integrantes img{
+        margin-top: 80px;
+       
+    }
+    .about_text{
+      width: 100%;
+  }
+  
+  .about_box{
+      width: 50%;   
+  }
+  .integrantes{
+    margin-top: -400px;
+    font-size: 25px;
+  }
+    
+}
+
+
+
+
+
+.mostrar-arriba{
+    animation: mostrar-arriba 1s;
+    opacity: 1;
+  }
+  
+  @keyframes mostrar-arriba{
+     0%{
+       transform: translateY(100px);
+     }
+     100%{
+       transform: translateY(0);
+     }
+  }
+  
+  
+  .mostrar-izquierda{
+    animation: mostrar-izquierda 1s;
+  
+  }
+  
+  @keyframes mostrar-izquierda{
+     0%{
+       transform: translateX(100px);
+     }
+     100%{
+       transform: translateX(0);
+     }
+  }
+  .animation{
+    opacity: 0;
+    transition: all 1s;
+  }
+  .animation2{
+    opacity: 0;
+    transition: all 1s;
+  }

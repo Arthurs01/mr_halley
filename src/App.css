@@ -1,0 +1,171 @@
+.gallery_menu {
+    font-size: 20px;
+    text-decoration: none;  
+    
+}
+.gallery_menu_flex{
+ background-color: rgba(0,0,0,0.2);
+    color: white;
+    margin-top: -80px;
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+}
+
+.gallery_menu_flex2{
+background-color: white;
+width: 100%;
+text-align: center;
+
+}
+.gallery_menu_flex a {
+
+    color: white;
+}
+
+
+.gallery_menu_flex ul{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.gallery_menu_flex ul li a{
+    text-decoration: none;
+    
+    
+    
+}
+.gallery_menu_flex li{
+    
+    list-style:none;
+    margin: 40px;
+    
+    
+    
+    
+}
+.gallery_menu_flex, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  
+}
+
+
+.gallery_menu_photos{
+
+    max-width: 1366px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.gallery_menu_photos_flex{
+    border-right: 1px dotted rgba(0,0,0,0.2);
+    width: 100%;
+    padding: 20px;
+}
+.gallery_menu_photos_flex li{
+  list-style: none;
+    
+}
+.gallery_menu_photos_flex ul{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+    
+}
+
+
+.gallery_menu_photos_flex a{
+  text-decoration: none;
+  margin: 20px;
+   
+}
+.gallery_menu_photos_flex_2{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+   
+
+}
+.gallery_menu_photos_flex_2 img{ 
+    width: 200px;
+    margin: 20px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+
+
+   
+   
+   
+
+}
+.gallery_menu_videos_flex{
+
+background-color: #1c1e21; 
+margin-top: 50px; 
+
+
+    
+}
+
+
+.gallery_menu_videos_flex a{
+    text-decoration: none;
+    color: white;
+    }
+
+.gallery_menu_videos_flex ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+
+
+}
+.gallery_menu_videos_flex li{
+    margin: 20px;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    
+}
+.gallery_menu_videos{
+    width:100%;
+  
+  
+}
+.gallery_menu_videos_flex_2{
+    color: white;
+}
+
+
+
+@media(max-width:768px){
+
+    .gallery_menu_flex{
+        background-color: rgba(0,0,0,0.2);
+           color: white;
+        
+           font-size: 40px;
+           width: 70%;
+           margin: auto;
+       }
+    
+    
+}
+
+
